@@ -19,9 +19,9 @@ task PipCleanDep {
     Clear-PipDependencies -Path .
 }
 
-# Synopsis: Restore nuget dependencies
-task PipRestoreDep {
-    Restore-PipDependencies -Path .
+# Synopsis: Install nuget dependencies
+task PipInstallDep {
+    Install-PipDependencies -Path .
 }
 
 # Synopsis: Update nuget dependency

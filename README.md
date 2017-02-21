@@ -9,7 +9,7 @@ Pip dependencies are stored in **requirements.txt** file in the root folder.
 
 Pip tasks:
 * **CleanDep** - cleans packages with Pip dependencies
-* **RestoreDep** - downloads Pip dependencies 
+* **InstallDep** - downloads Pip dependencies 
 * **UpdateDep** - updates dependency to specified version
   - **Dependency** - dependency name parameter
   - **Version** - dependency version parameter
@@ -86,7 +86,7 @@ A typical scenario to work with this component may include the following steps:
 
 * Install npm packages
 ```powershell
-> Invoke-Task -Task RestoreDep -Component component1
+> Invoke-Task -Task InstallDep -Component component1
 ```
 
 * Test component with PyTest

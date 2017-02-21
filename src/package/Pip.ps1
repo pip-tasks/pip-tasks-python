@@ -83,7 +83,7 @@ PS> Clear-PipDependencies -Path .
     end {}
 }
 
-function Restore-PipDependencies
+function Install-PipDependencies
 {
 <#
 .SYNOPSIS
@@ -92,7 +92,7 @@ Installs Pip dependencies
 
 .DESCRIPTION
 
-Restore-PipDependencies installs Pip dependencies
+Install-PipDependencies installs Pip dependencies
 
 .PARAMETER Path
 
@@ -100,7 +100,7 @@ Path to Pip project (default: .)
 
 .EXAMPLE
 
-PS> Restore-PipDependencies -Path .
+PS> Install-PipDependencies -Path .
 
 #>
     [CmdletBinding()]
