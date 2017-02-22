@@ -1,6 +1,6 @@
 ########################################################
 ##
-## pip-tasks-python-ps.psm1
+## pip-tasks-python.psm1
 ## Pip.Tasks.Python - Python build tasks for Pip.Tasks
 ## Startup module
 ##
